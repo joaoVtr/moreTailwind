@@ -12,8 +12,8 @@
         <h1>Background</h1>
       </section>
 
-      <div class="flex">
-        <div class="space-y-5 grow">
+      <div class="grid grid-cols-2">
+        <div class="space-y-5">
           <div
             style="
               background-image: url('https://images.pexels.com/photos/10592693/pexels-photo-10592693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -68,7 +68,7 @@
             Background 8 bg-[url('https...')]
           </div>
         </div>
-        <div class="space-y-5 grow">
+        <div class="space-y-5">
           <div class="w-4/5 h-20 bg-gradient-to-bl from-cyan-400 to-blue-500">
             Background 9 - bg-gradient-to-bl
           </div>
@@ -78,7 +78,15 @@
           <div class="w-4/5 h-20 bg-gradient-to-b from-cyan-400 to-blue-500">
             Background 11 - bg-gradient-to-b
           </div>
-          <div class="w-4/5 h-20 bg-red-600 text-white">Background 12</div>
+          <div
+            style="
+              background-image: url('https://images.pexels.com/photos/10592693/pexels-photo-10592693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            "
+            class="w-4/5 h-20 bg-blue-300 text-white bg-left-top bg-contain bg-no-repeat duration-500 hover:bg-right-bottom hover:transition-all hover:duration-500"
+          >
+            Background 12 - duration-500 hover:bg-right-bottom
+            hover:transition-all hover:duration-500
+          </div>
           <div class="w-4/5 h-20 bg-blue-300">Background 13</div>
           <div class="w-4/5 h-20 bg-blue-400">Background 14</div>
           <div class="w-4/5 h-20 bg-blue-500">Background 15</div>
