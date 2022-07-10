@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bordas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-200">
+    <div class="w-4/5 p-5 mr-auto ml-auto mt-10">
+      <section class="text-blue-900 text-2xl underline font-bold mb-10">
+        <h1>Bordas</h1>
+      </section>
+
+      <div class="space-y-5">
+        <div class="w-4/5 h-20 bg-red-300 rounded ring-4">
+          Borda 1 - Rounded - ring-4
+        </div>
+        <div class="w-4/5 h-20 bg-red-400 rounded-lg outline outline-blue-500">
+          Borda 2 - Rounded-lg - outline - outline-blue-500
+        </div>
+        <div class="w-4/5 h-20 bg-red-500 rounded-full text-white">
+          Borda 3 - Rounded-full
+        </div>
+        <div class="w-4/5 h-20 bg-red-600 text-white rounded-l-lg">
+          Borda 4 - rounded-l-lg
+        </div>
+        <div class="w-4/5 h-20 bg-blue-300 rounded-full hover:rounded-none">
+          Borda 5 - rounded-full - hover:rounded-none
+        </div>
+        <div
+          class="w-4/5 h-20 bg-blue-400 border-4 border-yellow-600 border-dashed rounded-tl-lg"
+        >
+          Borda 6 - rounded-tl-lg (top left) - border-4 - border-dashed
+        </div>
+        <div
+          class="w-4/5 h-20 bg-blue-500 rounded-full border-t-4 ring-2 hover:ring-4 border-yellow-600"
+        >
+          Borda 7 - rounded-full - border-t-4 - ring-2 - hover:ring-4
+        </div>
+        <div
+          class="w-4/5 h-20 bg-blue-600 text-white rounded-l-lg border-4 border-red-500/100"
+        >
+          Borda 8 - rounded-l-lg - border-4 - border-red-500/100
+        </div>
+      </div>
+
+      <p class="mt-5 underline">Borda divide-y divide-red-700</p>
+      <div class="bg-blue-300 divide-y divide-red-700">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+    </div>
+  </body>
+</html>
