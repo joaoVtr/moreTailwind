@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Flexbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-gray-200 w-full">
+    <div class="w-4/5 p-5 mr-auto ml-auto mt-10">
+      <section class="text-blue-900 text-2xl underline font-bold mb-10">
+        <h1>Flexbox</h1>
+      </section>
+      <section class="space-y-7">
+        <section class="h-12 bg-gray-400 flex flex-row">
+          <div class="bg-red-600 basis-1/2 hover:basis-1/12">
+            Flex 1 - basis-1/2 - hover:basis-1/6
+          </div>
+          <div class="bg-red-500 basis-1/2">Flex 2 - basis-1/2</div>
+          <div class="bg-red-400 basis-1/4">Flex 3 - basis-1/4</div>
+        </section>
+        <section class="h-12 bg-gray-400 flex flex-row-reverse">
+          <div class="bg-red-600 basis-1/2 hover:basis-1/12">
+            Flex 1 - basis-1/2 - hover:basis-1/6
+          </div>
+          <div class="bg-red-500 basis-1/2">Flex 2 - basis-1/2</div>
+          <div class="bg-red-400 basis-1/4">Flex 3 - basis-1/4</div>
+        </section>
+        <section class="h-12 bg-gray-400 flex flex-col">
+          <div class="bg-red-600 basis-1/2 hover:basis-1/12">
+            Flex 1 - basis-1/2 - hover:basis-1/6
+          </div>
+          <div class="bg-red-500 basis-1/2">Flex 2 - basis-1/2</div>
+          <div class="bg-red-400 basis-1/4">Flex 3 - basis-1/4</div>
+        </section>
+        <section class="h-20 bg-gray-400 flex items-center">
+          <div class="bg-red-600 h-10 basis-1/2">Flex 1 - basis-1/2</div>
+          <div class="bg-red-500 h-10 basis-1/2">Flex 2 - basis-1/2</div>
+          <div class="bg-red-400 h-10 basis-1/4">Flex 3 - basis-1/4</div>
+        </section>
+        <section class="h-20 bg-gray-400 flex justify-center">
+          <div class="bg-red-600 h-10 basis-72">Flex 1 - basis-72</div>
+          <div class="bg-red-500 h-10 basis-80">Flex 2 - basis-80</div>
+          <div class="bg-red-400 h-10 basis-56">Flex 3 - basis-56</div>
+        </section>
+        <section class="h-20 bg-gray-400 flex justify-center">
+          <div class="bg-red-600 h-10 basis-72">Flex 1 - basis-72</div>
+          <div class="bg-red-500 h-10 flex-grow">Flex 2 - flex-grow</div>
+          <div class="bg-red-400 h-10 basis-56">Flex 3 - basis-56</div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
