@@ -1,5 +1,7 @@
 @layer components {
   .btn-1 {
-    @apply rounded-md bg-azul-200 text-yellow-100 p-2 w-40;
+    @apply rounded-md bg-azul-200 text-yellow-100 p-2 w-40
+    hover:bg-red-400 hover:transition hover:delay-75 hover:duration-500
+     transition duration-500 delay-75;
   }
 }
