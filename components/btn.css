@@ -1,0 +1,5 @@
+@layer components {
+  .btn-1 {
+    @apply rounded-md bg-azul-200 text-yellow-100 p-2 w-40;
+  }
+}
