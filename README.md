@@ -5,4 +5,4 @@
 
 ### Para editar o tailwind/clases do projeto:
 
-2. npm run build:css
+1. npm run build:css
